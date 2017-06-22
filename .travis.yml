@@ -1,0 +1,11 @@
+language: ruby
+
+dist: trusty
+
+rvm:
+  - 2.4.0
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: secure: "PYNhk7tjgOopb6jFGWWHd1iC7T5YtfLjC8YxsdJT/d51Ysfko1xILjIALe+x2I4s7/iHaWmE6RZKRINtgmqvCgiO1FZOgL1mhc9cGQOtgY5fTD3wqWM2hY96Qk5cUWM9xZ7bYFoF7HowxNdpyPVh+rBK6/pzS8KX13ez1fXlGPEwqeXm91ff+NMW35IT9vpqVqgTA1F4wLov9xsTgYn9RzsK7elq5aaVhfEYrNEo8ptwL+nC20bpE4hpDCD1/ChVh6TbRI9/20qg4JIMZ01lfLqXGs52B8G/f/GM5uAkH18P9eVyI+ZSINeyKzMATERrlf5Da9LFpSfBha3SAQs91Grt5QeiY+FxijwF3ls0cX796hCbn4fzQL8g95V5/w4zJK2nuswCWQJnT7lWBRdjy5OtK1zQvTnVgpk7odBT0EsOEHXcm0KxC+cflTSTuN+QnvCNvyvJX/TPz0eLVDYC78z0VxNdPA0VfyddAtwJo8OVr3OQvM0D8pKECFibwevWxb3Gl8HrJ4RRJgJ4TETJIv8ziOCneCmTlGXc+Bah6ObLC2GNwfXhbNzliO5/kafeh1ufuEC8Xa3Sl6Tb+0Dq4gvmXaf65jQZ8PCcN/LqhslsZJJ6lufQteABNFj2xgKE+iUsXl1z42G7mCFzQRZscn5DtPeK6EdR1ZrLqA+/T6Y="
